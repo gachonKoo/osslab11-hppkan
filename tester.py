@@ -1,9 +1,9 @@
 import geo.utils as utils
 
 a, b = 3, 4
-c = utils.calculate_hypotenuse(a, b)
-print('c = ', c)
+c = utils.pythagoras(a, b)
+print('c =', c)
 
 r = 10
-area = utils.calculate_circle_area(r)
-print('Area = ', area)
+area = utils.circle(r)
+print('area =', area)
